@@ -5,7 +5,7 @@
 ### Deploy as Daemon Set:
 
 ```
-kubectl create -f manifests/seqera-k8s-fuse-plugin.yml
+kubectl create -f https://github.com/seqeralabs/k8s-fuse-plugin/raw/master/manifests/seqera-k8s-fuse-plugin.yml
 ```
 
 ### Deploy
