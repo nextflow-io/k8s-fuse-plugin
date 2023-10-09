@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	resourceName = "seqera.io/fuse"
+	resourceName = "nextflow.io/fuse"
 	serverSock   = pluginapi.DevicePluginPath + "fuse.sock"
 )
 

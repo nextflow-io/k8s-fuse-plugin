@@ -5,7 +5,7 @@
 ### Deploy as Daemon Set:
 
 ```
-kubectl create -f https://github.com/seqeralabs/k8s-fuse-plugin/raw/master/manifests/seqera-k8s-fuse-plugin.yml
+kubectl create -f https://github.com/nextflow-io/k8s-fuse-plugin/raw/master/manifests/k8s-fuse-plugin.yml
 ```
 
 ### Deploy
@@ -18,7 +18,7 @@ spec:
   - ...
     resources:
       limits:
-        seqera.io/fuse: 1
+        nextflow.io/fuse: 1
 ```
 
 ## Acknowledgements
