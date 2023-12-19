@@ -1,5 +1,7 @@
 # FUSE device plugin for Kubernetes
 
+This plugin allows the mount of a FUSE device without the need for escalating privileges. 
+
 ## Usage
 
 ### Deploy as Daemon Set:
