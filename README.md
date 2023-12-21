@@ -26,3 +26,9 @@ spec:
 ## Acknowledgements
 
 This project is based on this [FUSE device plugin](https://github.com/kuberenetes-learning-group/fuse-device-plugin)
+
+## Similar projects 
+
+* https://github.com/kuberenetes-learning-group/fuse-device-plugin
+* https://gitlab.com/arm-research/smarter/smarter-device-manager
+* https://github.com/squat/generic-device-plugin
