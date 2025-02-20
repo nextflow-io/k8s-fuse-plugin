@@ -7,7 +7,7 @@ IMAGE_PUSH_TARGETS = $(TARGETS:=.push-image)
 MANIFEST_CREATE_TARGETS = $(PLATFORM:=.create-manifest)
 MANIFEST_PUSH_TARGETS = $(PLATFORM:=.push-manifest)
 BUILD_OPT=""
-IMAGE_TAG=0.1
+IMAGE_TAG=0.2
 IMAGE_PREFIX=k8s-fuse-plugin
 IMAGE_REGISTRY=quay.io/nextflow
 BINARY=k8s-fuse-plugin
