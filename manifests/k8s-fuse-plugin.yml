@@ -14,7 +14,7 @@ spec:
     spec:
       hostNetwork: true
       containers:
-      - image: quay.io/nextflow/k8s-fuse-plugin:0.2
+      - image: quay.io/nextflow/k8s-fuse-plugin:0.3
         args:
           - "--mounts-allowed=5000"
         name: fuse-device-plugin-ctr
